@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Working files from converting your own (copyrighted) books — never commit these
+book.txt
+*.pdf
+*.epub
+*.docx
+report.json
+advisor.txt
+advisor.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

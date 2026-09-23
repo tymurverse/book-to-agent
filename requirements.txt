@@ -1,0 +1,6 @@
+pypdf>=4.0            # PDF extraction (extract.py)
+ebooklib>=0.18       # EPUB extraction (extract.py)
+beautifulsoup4>=4.12  # EPUB parsing (extract.py)
+lxml>=5.0            # EPUB parsing (extract.py)
+pytest>=8.0          # test suite
+# TXT / MD input needs no dependencies.

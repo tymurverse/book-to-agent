@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Know yourself and know your rival",
+    "chapter": "III. Attack by Stratagem",
+    "anchors": ["know the enemy and know yourself", "hundred battles"]
+  },
+  {
+    "name": "Win without fighting",
+    "chapter": "III. Attack by Stratagem",
+    "anchors": ["supreme excellence", "without fighting"]
+  },
+  {
+    "name": "All conflict runs on deception",
+    "chapter": "I. Laying Plans",
+    "anchors": ["warfare is based on deception"]
+  },
+  {
+    "name": "Never let it drag on",
+    "chapter": "II. Waging War",
+    "anchors": ["prolonged warfare"]
+  },
+  {
+    "name": "Decide on foreknowledge, not hope",
+    "chapter": "XIII. The Use of Spies",
+    "anchors": ["the use of spies", "foreknowledge"]
+  },
+  {
+    "name": "Shape the ground",
+    "chapter": "X. Terrain",
+    "anchors": ["local guides", "natural formation of the country"]
+  }
+]
