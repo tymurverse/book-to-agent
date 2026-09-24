@@ -1,7 +1,13 @@
-# book-to-agent
+<p align="center">
+  <img src="assets/logo.svg" alt="book-to-agent" width="128">
+</p>
 
-[![tests](https://github.com/tymurverse/book-to-agent/actions/workflows/tests.yml/badge.svg)](https://github.com/tymurverse/book-to-agent/actions/workflows/tests.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+<h1 align="center">book-to-agent</h1>
+
+<p align="center">
+  <a href="https://github.com/tymurverse/book-to-agent/actions/workflows/tests.yml"><img src="https://github.com/tymurverse/book-to-agent/actions/workflows/tests.yml/badge.svg" alt="tests"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+</p>
 
 **Turn a book you own into an advisor that thinks and talks like its author — grounded in the real text, deployable anywhere.**
 

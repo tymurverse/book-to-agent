@@ -1,0 +1,49 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="book-to-agent">
+  <!-- book-to-agent — an open book with an advisor's spark rising from it.
+       Breeze palette: indigo #423A8E, teal #00CCCD. -->
+  <defs>
+    <linearGradient id="pageL" x1="96" y1="196" x2="256" y2="356" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4c43a0"/>
+      <stop offset="1" stop-color="#423A8E"/>
+    </linearGradient>
+    <linearGradient id="pageR" x1="416" y1="196" x2="256" y2="356" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5b52b8"/>
+      <stop offset="1" stop-color="#4a41a0"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="256" y1="60" x2="256" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#00b8b9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- left page -->
+  <path d="M256 232 L96 196 Q88 194 88 204 L100 312 Q101 320 109 322 L256 356 Z" fill="url(#pageL)"/>
+  <!-- right page -->
+  <path d="M256 232 L416 196 Q424 194 424 204 L412 312 Q411 320 403 322 L256 356 Z" fill="url(#pageR)"/>
+  <!-- spine highlight -->
+  <path d="M256 232 L256 356" stroke="#2f2870" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- page text lines (left) -->
+  <g stroke="#00CCCD" stroke-width="7" stroke-linecap="round" opacity="0.85">
+    <path d="M138 232 L226 253"/>
+    <path d="M132 262 L220 282"/>
+    <path d="M126 292 L214 311"/>
+  </g>
+  <!-- page text lines (right) -->
+  <g stroke="#9be9ea" stroke-width="7" stroke-linecap="round" opacity="0.7">
+    <path d="M286 253 L374 232"/>
+    <path d="M292 282 L380 262"/>
+    <path d="M298 311 L386 292"/>
+  </g>
+
+  <!-- advisor spark rising from the spine -->
+  <path d="M256 96
+           C264 150 276 162 320 170
+           C276 178 264 190 256 244
+           C248 190 236 178 192 170
+           C236 162 248 150 256 96 Z"
+        fill="url(#spark)"/>
+  <!-- small accent sparks -->
+  <circle cx="336" cy="120" r="10" fill="#22d3ee"/>
+  <circle cx="182" cy="126" r="7" fill="#00CCCD" opacity="0.9"/>
+</svg>
